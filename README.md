@@ -1,6 +1,6 @@
 # My Personal Website
 
-![Preview](https://github.com/Alexis12119/Alexis12119.github.io/assets/74944536/46d8ea89-34dd-4edc-bb80-a65d8a9cddde)
+![Preview](https://github.com/Alexis12119/Alexis12119.github.io/assets/74944536/e7d1c9ab-ab8e-43b8-9894-9b20081d4caf)
 
 Welcome to my personal website repository!
 
