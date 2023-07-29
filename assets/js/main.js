@@ -444,8 +444,10 @@ $(document).ready(function () {
   })
 })
 
- // Get the current year
-  const currentYear = new Date().getFullYear();
+// Get the current year
+const currentYear = new Date().getFullYear()
 
-  // Update the content of the HTML element with the current year
-  document.getElementById('current-year').innerText = `${currentYear} Alexis Corporal. All rights reserved`;
+// Update the content of the HTML element with the current year
+document.getElementById(
+  'current-year',
+).innerText = `${currentYear} Alexis Corporal. All rights reserved`
