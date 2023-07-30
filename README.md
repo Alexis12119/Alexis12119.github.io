@@ -4,7 +4,7 @@ Welcome to my personal website repository!
 
 ## About
 
-This is the source code for my personal website. It's a showcase of my work, interests, and projects.
+This is the source code for my personal website. It's a showcase of my work, interests, skills and tools.
 
 ## Technologies Used
 
@@ -20,6 +20,7 @@ This is the source code for my personal website. It's a showcase of my work, int
 - Original Author: @ajlkn
 - Template Source: [html5up.net](http://html5up.net)
 - License: [Creative Commons Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/)
+- [iconarchive](https://www.iconarchive.com) - Terminal Logo.
 
 ## Usage
 
