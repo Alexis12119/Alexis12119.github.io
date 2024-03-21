@@ -54,8 +54,10 @@ a:hover {
 }
 
 .navbar-brand {
-  color: #fff;
   font-weight: bold;
+  padding: 15px 15px 15px 15px;
+  background-color: #2b2b2b;
+  border-radius: 50px;
 }
 
 .navbar-nav .nav-link {
