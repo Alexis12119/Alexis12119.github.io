@@ -71,3 +71,24 @@ a:hover {
 .navbar-toggler-icon {
   background-color: #2b2b2b;
 }
+
+.footer {
+  background-image: linear-gradient(to right, #4b4b4b, #2b2b2b);
+  color: #fff;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.footer .container span {
+  font-size: 14px;
+}
+
+.footer .container a {
+  color: #fff;
+}
+
+.footer .container a:hover {
+  color: #f8f9fa;
+}
