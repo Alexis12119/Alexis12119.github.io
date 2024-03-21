@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexis Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="assets/img/profile.jpg"
+            class="img-fluid rounded-circle"
+            alt="Profile Picture"
+          />
+        </div>
+        <div class="col-md-6" style="padding-top: 15px">
+          <h2>About Me</h2>
+          <p class="lead">
+            Hello! I'm Alexis Corporal, Student at
+            <a href="https://www.plsp.edu.ph/" target="_blank">PLSP</a> who
+            loves programming and someone who's easy to communicate with.
+          </p>
+          <h3>Skills</h3>
+          <ul class="list-group">
+            <li class="list-group-item">HTML5</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">C/C++</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="container mt-5">
+      <h2 class="text-center mb-5">Portfolio</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card border-0">
+            <img
+              src="https://via.placeholder.com/350"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">This is my Project 1.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card border-0">
+            <img
+              src="https://via.placeholder.com/350"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">This is my Project 2.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card border-0">
+            <img
+              src="https://via.placeholder.com/350"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">This is my Project 3.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="container mt-5">
+      <h2 class="text-center mb-5">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 56px 56px 0px 56px;
+}
+
+a {
+  color: #4b4b4b;
+  font-weight: bold;
+}
+a:hover {
+  color: #2b2b2b;
+  font-weight: bold;
+}
+
+#about {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#portfolio {
+  padding: 50px 0;
+}
+
+#contact {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.card {
+  border-radius: 20px;
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+}
+
+.btn-primary {
+  background-color: #4b4b4b !important;
+  border-color: #4b4b4b !important;
+}
+
+.btn-primary:hover {
+  background-color: #2b2b2b !important;
+  border-color: #2b2b2b !important;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #4b4b4b, #2b2b2b);
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.navbar-toggler-icon {
+  background-color: #2b2b2b;
+}
